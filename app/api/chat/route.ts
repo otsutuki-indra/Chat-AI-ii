@@ -1,8 +1,7 @@
+export const runtime = 'edge';
+
 import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-
-// Cloudflare
-export const runtime = 'edge';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
