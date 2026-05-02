@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^14.3.0",
@@ -32,3 +31,4 @@
     "eslint": "^8",
     "eslint-config-next": "^14.3.0"
   }
+}
